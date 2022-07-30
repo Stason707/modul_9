@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="shortcut icon" href="/siluet.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="reset.css" type="text/css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-header">
+            <h1 class="h1">Окно генерации результатов</h1>
+        </div>
+        <div class="card-header">
+            <h5 class="h2">Кто же получился:</h5>
+        </div>
+        <div class="table">
+            <div class="property">
+                <h2>Пол</h2>
+                <br>
+                <h2>Фамилия</h2>
+                <br>
+                <h2>Имя</h2>
+                <br>
+                <h2>Отчество</h2>
+                <br>
+                <h2>Дата рождения</h2>
+                <br>
+                <h2>Профессия</h2>
+            </div>
+            <div class="mean">
+                <h3 id="genderOutput"></h3>
+                <br>
+                <h3 id="surnameOutput"></h3>
+                <br>
+                <h3 id="firstNameOutput"></h3>
+                <br>
+                <h3 id="fatherNameOutput"></h3>
+                <br>
+                <h3 id="birthDayOutput"></h3>
+                <br>
+                <h3 id="professionOutput"></h3>
+            </div>
+        </div> <br><br>
+            <div class="button">
+                <p class="btn-gen" id="gen">Сгенерировать</p>
+                <p class="btn-clr" id="clear">Очистить</p>                
+            </div>
+            <div class="copiright"><p>© SNZubrovskiy Krasnodar 2022</p></div>
+        </div> 
+    <script src="./personGenerator.js"></script>
+    <script src="./init.js"></script>
+</body>
+
+</html>

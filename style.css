@@ -1,0 +1,113 @@
+body {
+    background: url("https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    font-size: 20px;
+    display: flex;
+    height: 465px;
+    width: 500px;
+    align-items: center;
+    margin-top: 40px;
+    display: block;
+    flex-direction: column;
+    border: 1px solid rgb(72, 72, 72);
+    text-align: center;
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+}
+.h1 {
+    background-color: rgba(101, 99, 99, 0.334);
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(44, 44, 44);
+    padding: 30px;
+    color: rgb(43, 43, 45);
+}
+.h2 {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(147, 60, 60);
+    border-bottom: 1px solid black;
+}
+h2 {
+    position: absolute;
+    margin-left: 5px;
+}
+h3 {
+    position: absolute;
+    margin-left: 5px;
+}
+.table {
+    display: flex;
+    height: 220px;
+    line-height: 1.9;
+    margin-left: 10px;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+
+}
+.property {
+    width: 35%;
+    border-right: 1px solid black;
+}
+.mean {
+    height: 250px;
+    width: 65%;
+    margin-left: 5px;
+    color: rgb(67, 65, 66);
+    font-weight: bold;
+}
+.mean.Men {
+    color: rgb(128, 128, 221);
+}
+.button {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    text-transform: uppercase;
+    border-top: 1px solid black;
+    margin-top: -40px;
+    font-weight: bold;
+}
+.btn-gen {
+    margin-top: 30px;
+    width: 150px;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: blue;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-gen:hover {
+    background-color: rgb(34, 34, 135);
+    color: aliceblue;
+}
+.btn-clr {
+    margin-top: 30px;
+    width: 150px;
+    padding: 15px;
+    margin-left: 20px;
+    background-color: rgb(201, 136, 32);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-clr:hover {
+    background-color: rgb(99, 70, 23);
+    color: aliceblue;
+}
+.copiright {
+    margin-top: 170px;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    
+}
